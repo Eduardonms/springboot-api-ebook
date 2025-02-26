@@ -27,5 +27,39 @@ target/
 /.nb-gradle/
 build/
 
-### VS Code ###
-.vscode/
+# Eclipse
+*.class
+*.log
+.settings/
+.project
+.classpath
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.iml
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+build/
+*.gradle
+gradle-wrapper.jar
+
+# OS específicos
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA
+.idea/
+
+# Arquivos de compilação
+*.jar
+*.war
+*.ear
+
+# Arquivos de configuração locais
+.idea/
+*.sublime-workspace
+*.sublime-project
